@@ -1,65 +1,119 @@
 # 📄 Billing System using Python
 
-A Python-based Billing System that generates formatted bill receipts and automatically emails them to customers using Gmail SMTP.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Platform](https://img.shields.io/badge/Platform-CLI-lightgrey)
+![SMTP](https://img.shields.io/badge/Email-Gmail_SMTP-red)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+A **Python-based Command Line Billing System** that generates formatted bill receipts and automatically sends them to customers via **Gmail SMTP**.
+
+This project demonstrates Python fundamentals, file handling, email automation, environment variable management using **python-dotenv**, exception handling, and input validation.
 
 ---
 
-## 🚀 Features
+# ✨ Features
 
-- Generate formatted bill receipts
-- Automatic bill calculation
-- Email bill directly to customer
-- Gmail SMTP integration
-- Input validation
-- Exception handling
-- Simple CLI interface
+- 📄 Generate formatted bill receipts
+- 💰 Automatic total amount calculation
+- 📧 Send bills as email attachments using Gmail SMTP
+- 🔐 Secure email credential management using `.env`
+- ✅ Input validation
+- ⚠️ Exception handling for reliable execution
+- 💻 Simple and beginner-friendly Command Line Interface (CLI)
 
 ---
 
-## 🛠 Technologies Used
+# 📸 Screenshots
+
+## Program Execution
+
+![Program Output](images/program-output.png)
+
+---
+
+## Generated Bill
+
+![Generated Bill](images/generated-bill.png)
+
+---
+
+## Email Sent Successfully
+
+![Email](images/email-sent.png)
+
+---
+
+# 🛠 Technologies Used
 
 - Python
-- SMTP
+- Gmail SMTP
 - EmailMessage
 - python-dotenv
+- File Handling
+- Exception Handling
 
 ---
 
-## 📂 Project Structure
+# 📋 Requirements
 
-```
+- Python 3.10 or above
+- Gmail Account
+- Gmail App Password
+
+---
+
+# 📂 Project Structure
+
+```text
 billing-system-python/
-│── email-bill.py
-│── .gitignore
-│── requirements.txt
-│── README.md
-│── .env.example
+│
+├── email-bill.py
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── .env.example
+└── images/
+    ├── program-output.png
+    ├── generated-bill.png
+    └── email-sent.png
 ```
 
 ---
 
-## ⚙ Installation
+# ⚙️ Installation
 
-Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/anant-tyagi143/billing-system-python.git
 ```
 
-Install dependencies
+### Navigate to the project directory
+
+```bash
+cd billing-system-python
+```
+
+### Install the required dependency
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Create a `.env` file
+---
+
+# 🔑 Environment Variables
+
+Create a `.env` file in the project directory.
 
 ```env
 EMAIL=your_email@gmail.com
 PASSWORD=your_gmail_app_password
 ```
 
-Run
+---
+
+# ▶️ Run the Project
 
 ```bash
 python email-bill.py
@@ -67,19 +121,71 @@ python email-bill.py
 
 ---
 
-## 🔮 Future Improvements
+# 📖 How It Works
 
-- PDF Bill Generation
-- MySQL Integration
-- Tkinter GUI
-- GST Calculation
-- QR Code Payments
+1. Enter Order ID
+2. Enter Product Name
+3. Enter Product Price
+4. Enter Product Quantity
+5. Enter Customer Email
+6. Bill receipt is generated automatically
+7. Bill is attached and emailed to the customer
 
 ---
 
-## 👨‍💻 Author
+# 📚 What I Learned
+
+- Python File Handling
+- Email Automation using SMTP
+- Environment Variable Management with `python-dotenv`
+- Exception Handling
+- Input Validation
+- Command Line Application Development
+- Git & GitHub Project Management
+
+---
+
+# 🚀 Future Improvements
+
+- Generate bills in PDF format
+- Integrate MySQL database
+- Build a Tkinter GUI
+- Maintain customer billing history
+- Add GST and discount calculations
+- Generate unique invoice numbers
+- Export bills to PDF
+
+---
+
+# 🤝 Contributing
+
+Contributions, suggestions, and improvements are always welcome.
+
+If you'd like to improve this project:
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Open a Pull Request
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+# 👨‍💻 Author
 
 **Anant Tyagi**
 
-GitHub:
-https://github.com/anant-tyagi143
+📧 Email: anant143.tyagi@gmail.com
+
+🔗 GitHub: https://github.com/anant-tyagi143
+
+🔗 LinkedIn: https://linkedin.com/in/anant-tyagi143
+
+---
+
+⭐ If you found this project useful, consider giving it a **Star** on GitHub!
